@@ -1,8 +1,8 @@
 <template>
 	<div id="app">
-		<AppLayout>
-			<router-view/>
-		</AppLayout>
+		<div id="layout"></div>
+		<!-- router-view gets inserted into layout above via <Teleport/> component -->
+		<router-view/>
 	</div>
 </template>
 
